@@ -10,7 +10,10 @@ def start_with_vow():
             reserve = reserve + res
         count = 0
         num_vowels=0
-         
+        for char in w:
+           if char in "aeiouAEIOU":
+           num_vowels = num_vowels+1
+          
          
 
 
