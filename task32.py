@@ -32,3 +32,5 @@ for item in device:
 
 print (tabulate(device_list, headers=['number','hostname','ip','type'],tablefmt="rst"))
 
+get_net_device_count()
+
