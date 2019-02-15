@@ -23,4 +23,4 @@ def character_word_count(text):
         else:
             Dict[word].append(index)
     
-   
+character_word_count()  
