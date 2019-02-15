@@ -11,4 +11,11 @@ for line in log:
                 logget.write(line)
         elif 'post '.upper() in line.upper():
                 logpost.write(line)
-      
+        elif 'put '.upper() in line.upper():
+                logput.write(line)
+        elif 'delete '.upper() in line.upper():
+                logdelete.write(line)
+
+
+
+
