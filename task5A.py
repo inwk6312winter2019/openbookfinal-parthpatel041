@@ -13,7 +13,8 @@ def start_with_vow():
         for char in w:
            if char in "aeiouAEIOU":
            vowels = vowels+1
-           return vowels           
+           return vowels
+start_with_vow(text)           
          
 
 
